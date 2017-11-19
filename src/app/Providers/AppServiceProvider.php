@@ -1,13 +1,13 @@
 <?php
     
-    namespace DOTdevSPACE\Providers;
+    namespace DOTdevSPACE\Poedit\Providers;
     
     use Illuminate\Support\ServiceProvider;
     
     class AppServiceProvider extends
         ServiceProvider {
     
-        protected $namespace = 'DOTdevSPACE\Providers\Http\Controllers';
+        protected $namespace = 'DOTdevSPACE\Poedit\Providers\Http\Controllers';
         
         public function boot() {
         

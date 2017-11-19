@@ -1,6 +1,6 @@
 <?php
     
-    namespace DOTdevSPACE\Http\Controllers;
+    namespace DOTdevSPACE\Poedit\Http\Controllers;
     
     class Controller {
         
