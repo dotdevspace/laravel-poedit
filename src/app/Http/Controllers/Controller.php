@@ -4,4 +4,8 @@
     
     class Controller {
         
+        public function getIndex() {
+            return 'hello index';
+        }
+        
     }
