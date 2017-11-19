@@ -1,6 +1,5 @@
 {
     "name": "dotdevspace/laravel-poedit",
-    "homepage": "https://packages.dotdev.space/laravel-poedit",
     "description": "Laravel .po file editor",
     "keywords": [
         "php",
@@ -8,7 +7,12 @@
         "laravel 5"
     ],
     "type": "library",
-    "license": "Apache-2.0",
+    "license": "MIT",
+    "homepage": "https://packages.dotdev.space/laravel-poedit",
+    "support": {
+        "issues": "https://github.com/dotdevspace/laravel-poedit/issues",
+        "source": "https://github.com/dotdevspace/laravel-poedit"
+    },
     "authors": [
         {
             "name": "Luis Enrique Suárez",
@@ -23,5 +27,15 @@
         "psr-4": {
             "DOTdevSPACE\\Poedit\\": "src/app/"
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
