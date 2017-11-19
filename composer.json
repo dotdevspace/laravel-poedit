@@ -1,0 +1,27 @@
+{
+    "name": "dotdevspace/laravel-poedit",
+    "homepage": "https://packages.dotdev.space/laravel-poedit",
+    "description": "Laravel .po file editor",
+    "keywords": [
+        "php",
+        "laravel",
+        "laravel 5"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Luis Enrique Suárez",
+            "email": "im@lu1ssuarez.com",
+            "homepage": "https://lu1ssuarez.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "DOTdevSPACE\\Poedit\\": "src/app/"
+        }
+    }
+}
